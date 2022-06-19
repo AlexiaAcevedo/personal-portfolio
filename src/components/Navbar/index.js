@@ -7,7 +7,9 @@ import {
     MobileIcon,
     NavMenu, 
     NavItem,
-    NavLinks
+    NavLinks,
+    NavBtn,
+    NavBtnLink
     } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
@@ -35,6 +37,9 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="contact">Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to="/files/alexia-acevedo-resume.pdf" target="_blank" download>Resume</NavBtnLink>
+                    </NavBtn>
                 </NavbarContainer>
             </Nav>
         </>
