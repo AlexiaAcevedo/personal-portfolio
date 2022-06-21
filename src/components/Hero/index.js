@@ -29,9 +29,7 @@ const Hero = () => {
             <HeroContent>
                 <HeroH6>Hi, my name is</HeroH6>
                 <HeroH1>Alexia Acevedo</HeroH1>
-                <HeroP>I am a full stack software engineer who is a self-starter with a strong desire to learn.
-                    Passionate about writing and deploying high quality code to contribute to web applications by
-                    designing, developing, and shipping new software features.
+                <HeroP>I am a software engineer with both, front-end and back-end development skills based in Miami, FL.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="projects" 
