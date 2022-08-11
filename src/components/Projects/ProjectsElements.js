@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-    height: 900px;
+    height: 1100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,4 +63,42 @@ export const ProjectsCard = styled.div`
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+`
+
+export const ProjectsImg = styled.img`
+    height: 200px;
+    width: 380px;
+    margin: 10px;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+`
+
+export const ProjectsDetails = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+export const ProjectName = styled.h2`
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+`
+
+export const ProjectDescription = styled.p`
+    font-size: 1rem;
+    margin-bottom: 10px;
+`
+
+export const ProjectTechStack = styled.p`
+    font-size: 0.9rem;
+    color: gray;
+`
+
+export const GHIconLink = styled.a`
+    margin-top: 10px;
+    font-size: 24px;
+    color: black;
 `
