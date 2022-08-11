@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
-import {Button} from '../ButtonElement'
+import {Button1} from '../ButtonElement'
 import {
     HeroContainer, 
     HeroBg, 
@@ -32,14 +32,14 @@ const Hero = () => {
                 <HeroP>I am a software engineer with both, front-end and back-end development skills based in Miami, FL.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="projects" 
+                    <Button1 to="projects" 
                     onMouseEnter = {onHover} 
                     onMouseLeave = {onHover}
                     primary = 'true'
                     dark = 'true'
                     >
                         Check out my projects {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </Button1>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

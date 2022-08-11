@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../ButtonElement';
+import { Button2 } from '../ButtonElement';
 import {
     InfoContainer,
     InfoWrapper,
@@ -37,19 +37,20 @@ const Info = ({
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>Hello. My name is Alexia and I love to code. My interest in web development started in 2018 when I took a few Computer Science courses while I was working towards my B.S. in engineering at the University of Central Florida. <br />
-                                <br />
-                                Since then - I have learned many new programming languages and technologies. I consider myself a full stack software engineer, and am equally comfortable developing Python backends as I am building beautiful and efficient UIs using JavaScript and React on the frontend. <br />
-                                <br /> I am a self-starter with a strong desire to learn. Passionate about writing and deploying high quality code to contribute to web applications by designing, developing, and shipping new software features.</Subtitle>
+                                <Subtitle darkText={darkText}>I am a full stack software engineer with a strong sense of ownership and an eagerness to learn, improve and innovate. I am equally comfortable developing back-ends as I am building beautiful and efficient user-interfaces on the front-end.  <br />
+                                <br />I specialize in building efficient, responsive, and secure software. I have experience with API development and testing, database design and integration, and more, deployed in a scalable, secure manner using AWS. 
+                                Experienced collaborating with teammates and other stakeholders in an agile environment to ensure customer satisfaction. <br/>
+                                <br/>I enjoy fishing, hiking, gaming and spending time with my 1 year old Labrador, Colter.
+                                </Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'
+                                    <Button2 to='contact'
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact="true"
                                     offset={-80}
                                     primary={primary ? 1 : 0}>
-                                    </Button>
+                                    Let's get in touch</Button2>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>

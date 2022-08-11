@@ -68,7 +68,7 @@ export const HeroH6 = styled.h6`
 `
 
 export const HeroH1 = styled.h1`
-    color:rgb(43, 247, 232);
+    color:#fff;
     font-size: 48px;
     text-align: center;
     letter-spacing: 0.1rem;
