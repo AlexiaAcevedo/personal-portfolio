@@ -22,7 +22,7 @@ const Hero = () => {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer id='hero'>
             <HeroBg>
                 <VideoBg autoPlay loop muted src = {Video} type="video/mp4" />
             </HeroBg>
@@ -37,6 +37,11 @@ const Hero = () => {
                     onMouseLeave = {onHover}
                     primary = 'true'
                     dark = 'true'
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
                     >
                         Check out my projects {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button1>

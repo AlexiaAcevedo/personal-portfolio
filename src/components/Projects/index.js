@@ -1,7 +1,7 @@
 import React from 'react';
 import TieMyFlyImg from '../../images/tie-my-fly.png';
 import StockTrackerImg from '../../images/stock-tracker.png';
-import ItSolutionsImg from '../../images/it-solutions.png';
+import WallAppImg from '../../images/wall-app.PNG';
 import { FaGithub } from 'react-icons/fa';
 import {
     ProjectsContainer,
@@ -24,12 +24,12 @@ const Projects = () => {
                 <ProjectsH1 id='projects'>Projects</ProjectsH1>
                 <ProjectsWrapper>
                     <ProjectsCard>
-                        <ProjectsImg src={ItSolutionsImg}></ProjectsImg>
+                        <ProjectsImg src={WallAppImg}></ProjectsImg>
                         <ProjectsDetails>
-                            <ProjectName>IT Solutions</ProjectName>
-                            <ProjectDescription>Single page web application that allows a user to apply to open positions within the IT industry. This is a test application built with limited functionality. Built using dummy text and data.</ProjectDescription>
-                            <ProjectTechStack> React - Styled Components - Flask - MySQL - AWS - Netlify </ProjectTechStack>
-                            <GHIconLink href='https://github.com/AlexiaAcevedo/it-solutions-web-app' target='_blank' aria-label='IT Solutions'>
+                            <ProjectName>The Wall</ProjectName>
+                            <ProjectDescription>The wall is an application that allows users to register, login, and write on a wall.</ProjectDescription>
+                            <ProjectTechStack> React - Django - SQLite - Heroku - Netlify </ProjectTechStack>
+                            <GHIconLink href='https://github.com/AlexiaAcevedo/wall-app' target='_blank' aria-label='The Wall'>
                                 <FaGithub />
                             </GHIconLink>
                         </ProjectsDetails>
