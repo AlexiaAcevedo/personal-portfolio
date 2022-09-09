@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
+import Resume from './aa_resume.pdf';
 import {
     Nav, 
     NavbarContainer, 
@@ -63,7 +64,7 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/files/alexia-acevedo-resume.pdf" target="_blank" download>Resume</NavBtnLink>
+                        <NavBtnLink to={Resume} target="_blank" download>Resume</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

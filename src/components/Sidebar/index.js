@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Resume from './aa_resume.pdf';
 import {
     SidebarContainer,
     Icon,
@@ -8,7 +9,7 @@ import {
     SidebarLink,
     SideBtnWrap,
     SidebarRoute
-} from './SidebarElements'
+} from './SidebarElements';
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
@@ -24,7 +25,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/files/alexia-acevedo-resume.pdf" target="_blank" download>Resume</SidebarRoute>
+                    <SidebarRoute to={Resume} target="_blank" download>Resume</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
