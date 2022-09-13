@@ -2,6 +2,8 @@
 
 My portfolio is single page application that showcases my technical skills, projects, and background.
 
+Visit my portfolio [here](https://alexiaacevedo.github.io/personal-portfolio/)
+
 ![pic1](https://user-images.githubusercontent.com/98661499/189999497-1482c9a8-a6fa-4c61-85aa-feadd97d490c.PNG)
 
 
